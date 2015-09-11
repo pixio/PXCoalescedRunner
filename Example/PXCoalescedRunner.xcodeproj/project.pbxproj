@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281DE7921BA3884B008E4103 /* PXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 281DE7911BA3884B008E4103 /* PXView.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,7 +21,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D64B0BEB19F2B016BF86710C /* Pods_PXCoalescedRunner_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365AA2FF227D7DFD1FB0518E /* Pods_PXCoalescedRunner_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DFE6896DC0841D97C7D56095 /* Pods_PXCoalescedRunner_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9433A7BCC5FEF015BA9EC705 /* Pods_PXCoalescedRunner_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -37,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		1121AC263A84964BB2BE54B7 /* PXCoalescedRunner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PXCoalescedRunner.podspec; path = ../PXCoalescedRunner.podspec; sourceTree = "<group>"; };
+		281DE7901BA3884B008E4103 /* PXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXView.h; sourceTree = "<group>"; };
+		281DE7911BA3884B008E4103 /* PXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXView.m; sourceTree = "<group>"; };
 		365AA2FF227D7DFD1FB0518E /* Pods_PXCoalescedRunner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXCoalescedRunner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* PXCoalescedRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PXCoalescedRunner.app; path = PXCoalescedRunner_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,7 +62,6 @@
 		6E5A46A63A8709F7B25E6940 /* Pods-PXCoalescedRunner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXCoalescedRunner_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PXCoalescedRunner_Tests/Pods-PXCoalescedRunner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7DC9F98A6F67EEDC1E1A193C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		816D7FDEE5CABB4C9AB369D1 /* Pods-PXCoalescedRunner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXCoalescedRunner_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PXCoalescedRunner_Example/Pods-PXCoalescedRunner_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		87A3B36078495C385C0E8E84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		920B05738FF410223B4863C7 /* Pods-PXCoalescedRunner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXCoalescedRunner_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PXCoalescedRunner_Example/Pods-PXCoalescedRunner_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9433A7BCC5FEF015BA9EC705 /* Pods_PXCoalescedRunner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXCoalescedRunner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,9 +133,10 @@
 			children = (
 				6003F59C195388D20070C39A /* PXAppDelegate.h */,
 				6003F59D195388D20070C39A /* PXAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* PXViewController.h */,
 				6003F5A6195388D20070C39A /* PXViewController.m */,
+				281DE7901BA3884B008E4103 /* PXView.h */,
+				281DE7911BA3884B008E4103 /* PXView.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -276,7 +278,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -392,6 +393,7 @@
 			files = (
 				6003F59E195388D20070C39A /* PXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PXViewController.m in Sources */,
+				281DE7921BA3884B008E4103 /* PXView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

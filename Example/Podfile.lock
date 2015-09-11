@@ -1,0 +1,14 @@
+PODS:
+  - PXCoalescedRunner (0.1.0)
+
+DEPENDENCIES:
+  - PXCoalescedRunner (from `../`)
+
+EXTERNAL SOURCES:
+  PXCoalescedRunner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PXCoalescedRunner: 422a2354a7e8f6d21b56bcdc9cc0041f5a7f4a37
+
+COCOAPODS: 0.38.2

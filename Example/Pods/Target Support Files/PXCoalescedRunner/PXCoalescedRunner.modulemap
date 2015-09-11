@@ -1,0 +1,6 @@
+framework module PXCoalescedRunner {
+  umbrella header "PXCoalescedRunner-umbrella.h"
+
+  export *
+  module * { export * }
+}
