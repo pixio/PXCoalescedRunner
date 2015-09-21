@@ -1,6 +1,6 @@
 {
   "name": "PXCoalescedRunner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A utility class to coalesce close-together method calls into a single method call.",
   "description": "PXCoalescedRunner lets you coalesce multiple close-together calls to the same method into a single call,\nwhich is made once the method has not been called for a specific amount of time.",
   "homepage": "https://github.com/pixio/PXCoalescedRunner",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/pixio/PXCoalescedRunner.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "7.0"

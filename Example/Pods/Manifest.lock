@@ -1,5 +1,5 @@
 PODS:
-  - PXCoalescedRunner (0.1.0)
+  - PXCoalescedRunner (0.1.1)
 
 DEPENDENCIES:
   - PXCoalescedRunner (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PXCoalescedRunner: 422a2354a7e8f6d21b56bcdc9cc0041f5a7f4a37
+  PXCoalescedRunner: 137093a38e52213eb01fae89c53d2aadc1cfdf2d
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0.beta.4

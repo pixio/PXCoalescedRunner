@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PXCoalescedRunner"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A utility class to coalesce close-together method calls into a single method call."
   s.description      = <<-DESC
                        PXCoalescedRunner lets you coalesce multiple close-together calls to the same method into a single call,
