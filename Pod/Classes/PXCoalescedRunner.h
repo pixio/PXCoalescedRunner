@@ -10,7 +10,7 @@
 
 @class PXCoalescedRunner;
 typedef void (^PXCoalescedRunnerBlock)();
-typedef void (*PXCoalescedRunnerFunction)(void* context);
+typedef void (*PXCoalescedRunnerFunction)(void* _Nullable context);
 
 /** Coalesces multiple method calls less than a given amount of time apart into a single method call.
  *
@@ -25,12 +25,12 @@ typedef void (*PXCoalescedRunnerFunction)(void* context);
  */
 @interface PXCoalescedRunner : NSObject
 
-- (instancetype) init __attribute__((unavailable("Use one of the other init methods")));
+- (nullable instancetype) init __attribute__((unavailable("Use one of the other init methods")));
 
-- (instancetype) initWithDelay:(double)delay block:(PXCoalescedRunnerBlock)block;
+- (nullable instancetype) initWithDelay:(double)delay block:(nonnull PXCoalescedRunnerBlock)block;
 /** target is not retained */
-- (instancetype) initWithDelay:(double)delay target:(id)target action:(SEL)action;
-- (instancetype) initWithDelay:(double)delay function:(PXCoalescedRunnerFunction)function context:(void*)context;
+- (nullable instancetype) initWithDelay:(double)delay target:(nonnull id)target action:(nullable SEL)action;
+- (nullable instancetype) initWithDelay:(double)delay function:(nonnull PXCoalescedRunnerFunction)function context:(nullable void*)context;
 
 /** If this property is changed, the new delay does not take effect until the next time startTimer is called. */
 @property double delay;
