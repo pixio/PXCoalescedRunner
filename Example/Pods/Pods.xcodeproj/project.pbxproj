@@ -43,14 +43,14 @@
 
 /* Begin PBXFileReference section */
 		00010EE7009D6D1F51B20B654AF56CD7 /* ResourceBundle-PXCoalescedRunner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PXCoalescedRunner-Info.plist"; sourceTree = "<group>"; };
-		31634F3A7501A5C4CC5835B05F6BF3A7 /* PXCoalescedRunner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PXCoalescedRunner.bundle; path = PXCoalescedRunner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		31634F3A7501A5C4CC5835B05F6BF3A7 /* PXCoalescedRunner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXCoalescedRunner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		39394BD2CC4B1F21FF9E7FD9C1484835 /* Pods-PXCoalescedRunner_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXCoalescedRunner_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4481AFFAD566ECE7ECC836B2F4047A60 /* libPXCoalescedRunner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPXCoalescedRunner.a; path = libPXCoalescedRunner.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4481AFFAD566ECE7ECC836B2F4047A60 /* libPXCoalescedRunner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPXCoalescedRunner.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9B5FA98F440008798A8C40A4F1D408 /* PXCoalescedRunner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCoalescedRunner.h; sourceTree = "<group>"; };
 		50205DD2321F5A6E94026C4B51CF0560 /* Pods-PXCoalescedRunner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXCoalescedRunner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5515024BE33AD3BFD39D94D03884844A /* PXCoalescedRunner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCoalescedRunner.m; sourceTree = "<group>"; };
 		5F63CBB4008E86191557A48AFDE54C07 /* Pods-PXCoalescedRunner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXCoalescedRunner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		61ECC298AD69EDD77423226EC79D01DB /* libPods-PXCoalescedRunner_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PXCoalescedRunner_Example.a"; path = "libPods-PXCoalescedRunner_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61ECC298AD69EDD77423226EC79D01DB /* libPods-PXCoalescedRunner_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXCoalescedRunner_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EE03E0E3EEC0ABD108C7D2A02676C6 /* Pods-PXCoalescedRunner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXCoalescedRunner_Example-dummy.m"; sourceTree = "<group>"; };
 		67B3336DFC38D3A4492A28F39F941CC7 /* PXCoalescedRunner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXCoalescedRunner.xcconfig; sourceTree = "<group>"; };
 		7A0008B96816F01703B94E3FBFF619E2 /* Pods-PXCoalescedRunner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXCoalescedRunner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		81EF9B4782146FC3D0663FB2BAB80322 /* Pods-PXCoalescedRunner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXCoalescedRunner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		903E348F5CFF79CE71B3ABCED881D332 /* Pods-PXCoalescedRunner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXCoalescedRunner_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		914BAE258F5D26774EC0BCF17C87CB17 /* Pods-PXCoalescedRunner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXCoalescedRunner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A64E8AB52E0D8ED6B8DAD2D9B6E3397F /* Pods-PXCoalescedRunner_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXCoalescedRunner_Tests-resources.sh"; sourceTree = "<group>"; };
 		BCBBAD28796D9FCC58985F1A2C499D0C /* PXCoalescedRunner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXCoalescedRunner-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -67,7 +67,7 @@
 		D3185C3B5A1FD1998665461E0134CED5 /* Pods-PXCoalescedRunner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXCoalescedRunner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E6F7E07EB72983A15AF28C5DAABEF23C /* Pods-PXCoalescedRunner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXCoalescedRunner_Example-resources.sh"; sourceTree = "<group>"; };
 		EFCAF7084808D4377345F27403F86F92 /* Pods-PXCoalescedRunner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXCoalescedRunner_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FCF33410E11B11BAE555BA7A5B1F48C7 /* libPods-PXCoalescedRunner_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PXCoalescedRunner_Tests.a"; path = "libPods-PXCoalescedRunner_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF33410E11B11BAE555BA7A5B1F48C7 /* libPods-PXCoalescedRunner_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXCoalescedRunner_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +141,6 @@
 			children = (
 				E0F40B821392A1DB4CF3B59E3CE8FCEC /* Classes */,
 			);
-			name = Pod;
 			path = Pod;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				4D9B5FA98F440008798A8C40A4F1D408 /* PXCoalescedRunner.h */,
 				5515024BE33AD3BFD39D94D03884844A /* PXCoalescedRunner.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -321,7 +319,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -424,15 +422,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -485,7 +487,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/PXCoalescedRunner/ResourceBundle-PXCoalescedRunner-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = PXCoalescedRunner;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -508,14 +510,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -614,7 +620,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PXCoalescedRunner/PXCoalescedRunner-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -637,7 +643,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PXCoalescedRunner/PXCoalescedRunner-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -657,7 +663,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/PXCoalescedRunner/ResourceBundle-PXCoalescedRunner-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = PXCoalescedRunner;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
